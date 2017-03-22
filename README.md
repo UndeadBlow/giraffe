@@ -3,9 +3,10 @@
 Fixed scripts to work with Ubuntu 16.04
 
 To install clone repository and:
+```
 cd giraffe
 ./install.sh
-
+```
 
 Below goes original description
 
