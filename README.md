@@ -6,6 +6,9 @@ To install clone repository and:
 cd giraffe
 ./install.sh
 
+
+
+------------------------------------------------------------------------------
 ### Blast and Sequence Feature Detection
 
 Giraffe consists of two tools: Giraffe feature detection, and Hippo feature
