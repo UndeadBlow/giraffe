@@ -22,18 +22,18 @@ sudo apt-get -y install git curl build-essential
 sudo apt-get -y install python2.7 python2.7-doc python2.7-dev python-pip python-setuptools
 
 # install python virtualenv
-echo 'Installing/Updating virtualenv'
-sudo pip install virtualenv
-sudo pip install virtualenvwrapper
+#echo 'Installing/Updating virtualenv'
+#sudo pip install virtualenv
+#sudo pip install virtualenvwrapper
 
 # mysql
 if [ -d "/var/lib/mysql/mysql" ]; then
   echo "MySQL already installed"
 else
-  sudo DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-server-5.5
-  sudo mysqladmin -u root password password
-  sudo apt-get -y install mysql-client-5.5
+  sudo DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-server-5.7
+  sudo apt-get -y install mysql-client-5.7
   sudo apt-get -y install libmysqlclient-dev
+  sudo mysqladmin -u root password password
 fi
 
 # setup database

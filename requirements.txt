@@ -1,5 +1,4 @@
-Django >= 1.5
-South >= 0.7.2
+Django == 1.7
 
 # standardize on how we describe features
 git+http://github.com/benjiec/giraffe-features.git#egg=giraffe_features
@@ -11,4 +10,4 @@ biopython == 1.65
 django-nose
 
 # run script
-django-extensions == 1.1.1
+django-extensions
