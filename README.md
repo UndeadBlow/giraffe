@@ -8,6 +8,7 @@ cd giraffe
 
 
 Below goes original description
+
 ------------------------------------------------------------------------------
 ### Blast and Sequence Feature Detection
 
