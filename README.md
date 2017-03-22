@@ -7,7 +7,7 @@ cd giraffe
 ./install.sh
 
 
-
+Below goes original description
 ------------------------------------------------------------------------------
 ### Blast and Sequence Feature Detection
 
